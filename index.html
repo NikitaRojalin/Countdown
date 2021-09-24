@@ -1,66 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Timer!!</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <meta charset="utf-8">
+    <title>Timer!!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-        <style media="screen">
-            #time{
+    <style media="screen">
+    #time{
 
-                font-size:30px;
-                background-color:#A16E83;
-                color:white;
-                position:absolute;
-                top:50%;
-                left:50%;
-                transform:translate(-50%,-50%);
-                height:100px;
-                width:600px;
-                text-align:center;
+        font-size:30px;
+        background-color:#A16E83;
+        color:white;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        height:100px;
+        width:600px;
+        text-align:center;
 
-            }
-            body{
-                background-color:#4E4E50;
-                font-family: 'Koh Santepheap', cursive;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 class="p-3" style="color:white;">Birthday Countdown!!!</h1>
-        <div id="time">
+    }
+    body{
+        background-color:#4E4E50;
+        font-family: 'Koh Santepheap', cursive;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="p-3" style="color:white;">Birthday Countdown!!!</h1>
+    <div id="time">
 
-        </div>
+    </div>
 
-    </body>
-    <script type="text/javascript">
-        var t=10;
+</body>
+<script type="text/javascript">
+var t=10;
+var div_id=document.getElementById('time');
 
-        function showtime()
-        {
-            var div_id=document.getElementById('time');
-            if(t>0){
-            div_id.innerHTML=(t--)+"s........";
-        }
-            else {
-                div_id.innerHTML="Hey!!Happy Birthday🤩🤩😎😎";
-                console.log(t);
-            }
 
-        }
+setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+    setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+        setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+            setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                    setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                        setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                            setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                                setTimeout(function(){div_id.innerHTML=(t--)+"s........";
+                                    setTimeout(function(){div_id.innerHTML="Hey!!Happy Birthday🤩🤩😎😎";},1000);},1000);},1000);},1000);},1000);},1000);},1000);},1000);},1000);},1000);},1000);
 
-        setTimeout(showtime);
-        setTimeout(showtime,1000);
-        setTimeout(showtime,2000);
-        setTimeout(showtime,3000);
-        setTimeout(showtime,4000);
-        setTimeout(showtime,5000);
-        setTimeout(showtime,6000);
-        setTimeout(showtime,7000);
-        setTimeout(showtime,8000);
-        setTimeout(showtime,9000);
-        setTimeout(showtime,10000);
-
-    </script>
-</html>
+                                        </script>
+                                        </html>
